@@ -27,6 +27,12 @@
   }
 }
 
+@source "./app/**/*.{js,ts,jsx,tsx}";
+@source "./features/**/*.{js,ts,jsx,tsx}";
+@source "./shared/**/*.{js,ts,jsx,tsx}";
+@source "./widgets/**/*.{js,ts,jsx,tsx}"; 
+
+
 .text-mobile-h1 {
   font-size: 32px;
   line-height: 40px;

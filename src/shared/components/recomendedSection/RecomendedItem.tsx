@@ -23,7 +23,7 @@ export const RecomendedItem = ({isLiked = false}: {isLiked?: boolean}) => {
         <p className='font-inter font-bold text-xs text-black-500 inline-flex items-center gap-1'>
             <span>24 дня • </span>
             <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 8L5.08333 1V5.66667H8L3.91667 12.6667V8H1Z" stroke="#A7A7A7" stroke-linejoin="round"/>
+                <path d="M1 8L5.08333 1V5.66667H8L3.91667 12.6667V8H1Z" stroke="#A7A7A7" strokeLinejoin="round"/>
             </svg>
             <span>16 дней</span>
         </p>

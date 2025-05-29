@@ -42,6 +42,7 @@ export const BaseCategories = ({ categoriesData }: CategoriesGridProps) => {
               href={category.href}
               className={`col-span-${category.colSpan} row-span-1 relative rounded-xl overflow-hidden bg-background flex flex-col justify-between p-4 pb-16`}
             >
+              <div className='hidden col-span-2 col-span-3 col-span-5'></div>
               <div className="absolute inset-0">
                 <Image
                   src={category.imageSrc}
