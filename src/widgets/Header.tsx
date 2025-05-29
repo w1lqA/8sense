@@ -1,10 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import MenuIcon from "@/shared/assets/icons/icon-menu.svg"
-import SearchIcon from "@/shared/assets/icons/icon-search.svg"
 import UserIcon from "@/shared/assets/icons/icon-user.svg"
 import BagIcon from "@/shared/assets/icons/icon-bag.svg"
 import { LogoIcon } from "@/shared/assets/icons/LogoIcon"
+import { SearchIcon } from "@/shared/assets/icons/SearchIcon"
 
 
 interface HeaderProps {
@@ -14,7 +14,7 @@ interface HeaderProps {
 export const Header = ({className}: HeaderProps) => {
   return (
     <header className={` ${className}
-        flex flex-row items-center px-3 py-4 justify-between bg-black-200 w-full rounded-lg fixed max-w-[343px] m-4
+        flex flex-row items-center px-3 py-4 justify-between bg-black-200 w-full rounded-lg fixed max-w-[343px] m-4 z-50
     `}>
         <div className="flex items-center gap-1">
             <Link 
@@ -31,11 +31,7 @@ export const Header = ({className}: HeaderProps) => {
                 href="/search" 
                 className="p-1 hover:bg-black-300 rounded-lg transition-colors"
             >
-                <Image 
-                    src={SearchIcon} 
-                    alt="Search"
-                    className="w-5 h-5"
-                />
+                <SearchIcon className="w-5 h-5"/>
             </Link>
         </div>
             <Link href='#' className="hover:opacity-90 transition">

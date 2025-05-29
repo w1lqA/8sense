@@ -75,7 +75,7 @@ export const Footer = () => {
                 </Link>
             </div>
 
-            <div className="flex text-black-200 flex-wrap gap-2 justify-center md:justify-start mb-4 font-inter text-mobile-text-description"> {/* Заменено text-xs на text-mobile-text-small */}
+            <div className="flex text-black-200 flex-wrap gap-2 justify-center md:justify-start mb-4 font-inter text-mobile-text-description">
                 <Link href="#" className="hover:underline">Карта сайта</Link>
                 <Link href="#" className="hover:underline">Публичная оферта</Link>
                 <Link href="#" className="hover:underline">Политика приватности</Link>

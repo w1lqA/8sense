@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @theme {
   --color-white-200: #F1F1F140;
   --color-white-500: #F1F1F1;
@@ -18,51 +19,6 @@
   --font-bungee: "Bungee", sans-serif;
   --font-roboto: "Roboto", sans-serif;
 
-  --font-size-mobile-h1: 32px;
-  --line-height-mobile-h1: 40px;
-  --font-mobile-h1: var(--font-size-mobile-h1)/var(--line-height-mobile-h1);
-
-  --font-size-mobile-h2: 24px;
-  --line-height-mobile-h2: 32px;
-  --font-mobile-h2: var(--font-size-mobile-h2)/var(--line-height-mobile-h2);
-
-  --font-size-mobile-h3: 28px;
-  --line-height-mobile-h3: 40px;
-  --font-mobile-h3: var(--font-size-mobile-h3)/var(--line-height-mobile-h3);
-
-  --font-size-mobile-h4: 16px;
-  --line-height-mobile-h4: 20px;
-  --font-mobile-h4: var(--font-size-mobile-h4)/var(--line-height-mobile-h4);
-
-  --font-size-mobile-text-small: 12px;
-  --line-height-mobile-text-small: 16px;
-  --font-mobile-text-small: var(--font-size-mobile-text-small)/var(--line-height-mobile-text-small);
-
-  --font-size-mobile-text-medium: 14px;
-  --line-height-mobile-text-medium: 16px;
-  --font-mobile-text-medium: var(--font-size-mobile-text-medium)/var(--line-height-mobile-text-medium);
-
-  --font-size-mobile-text-inter: 16px;
-  --line-height-mobile-text-inter: 20px;
-  --font-mobile-text-inter: var(--font-size-mobile-text-inter)/var(--line-height-mobile-text-inter);
-
-  --font-size-mobile-text-category: 14px;
-  --line-height-mobile-text-category: 16px;
-  --font-mobile-text-category: var(--font-size-mobile-text-category)/var(--line-height-mobile-text-category);
-
-  --font-size-mobile-text-description: 12px;
-  --line-height-mobile-text-description: 16px;
-  --font-mobile-text-description: var(--font-size-mobile-text-description)/var(--line-height-mobile-text-description);
-
-  --font-size-mobile-text-cost-medium: 20px;
-  --line-height-mobile-text-cost-medium: 24px;
-  --font-mobile-text-cost-medium: var(--font-size-mobile-text-cost-medium)/var(--line-height-mobile-text-cost-medium);
-
-  --font-size-mobile-text-cost-small: 14px;
-  --line-height-mobile-text-cost-small: normal;
-  --font-mobile-text-cost-small: var(--font-size-mobile-text-cost-small)/var(--line-height-mobile-text-cost-small);
-
-
   --animate-marquee: marquee 10s linear infinite;
 
   @keyframes marquee {
@@ -71,7 +27,75 @@
   }
 }
 
+.text-mobile-h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.text-mobile-h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.text-mobile-h3 {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.text-mobile-h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-mobile-text-small {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.text-mobile-text-medium {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.text-mobile-text-inter {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-mobile-text-category {
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text-mobile-text-description {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-mobile-text-cost-medium {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  font-family: var(--font-jetbrains);
+}
+
+.text-mobile-text-cost-small {
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 800;
+  font-family: var(--font-jetbrains);
+}
+
 body {
   background: #171717;
   font-family: Inter, sans-serif;
+}
+
+button {
+  cursor: pointer;
 }
