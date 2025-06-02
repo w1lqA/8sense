@@ -10,7 +10,7 @@ export const BaseHero = ({bgImage, title} : {bgImage: string, title: string}) =>
                 <p>1205 товаров</p>
             </div>
             <SearchInput title={'Начать поиск'} className={'mb-6'}/>
-            <h1 className="text-mobile-h1 text-white-500 text-center mb-2">{title}</h1>
+            <h2 className="text-mobile-h1 text-white-500 text-center mb-2">{title}</h2>
             <Link href={'/'} className="mb-24 text-mobile-text-inter text-white-500 text-center underline">Купить</Link>
         </div>
     )

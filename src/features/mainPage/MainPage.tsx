@@ -6,6 +6,9 @@ import { ShoesSection } from './components/shoesSection/ShoesSection'
 import { RecomendedSection } from '@/shared/components/recomendedSection/RecomendedSection'
 import { ClothesSection } from './components/clothesSection/ClothesSection'
 import { AccessoriesSection } from './components/accessoriesSection/AccessoriesSection'
+import { CollectionsSection } from './components/collectionsSection/CollectionsSection'
+import { ReviewsSection } from './components/reviewsSection/ReviewsSection'
+import { LoginOffer } from './components/LoginOffer'
 
 export const MainPage = () => {
 
@@ -22,6 +25,10 @@ export const MainPage = () => {
           <RecomendedSection/>
           <AccessoriesSection/>
           <RecomendedSection/>
+          <CollectionsSection/>
+
+          <LoginOffer/>
+          <ReviewsSection/>
         </main>
 
         <Footer/>

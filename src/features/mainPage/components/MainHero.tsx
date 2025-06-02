@@ -8,7 +8,7 @@ import heroGradient from '@/features/mainPage/assets/hero-gradient.svg'
 export const MainHero = () => {
   return (
     <section className='flex flex-col items-center relative object-cover rounded-b-2xl pb-4'>
-        <h1 className='max-w-64 text-center'>Покупайте из 150+ платформ
+        <h1 className='max-w-64 text-center text-mobile-h4 font-jetbrains'>Покупайте из 150+ платформ
         в одном месте</h1>
         <div className='flex flex-col items-center relative'>
         <Image src={MainImageBg} alt="" className='p-6' />

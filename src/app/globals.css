@@ -25,6 +25,80 @@
     0% { transform: translateX(0%); }
     100% { transform: translateX(-100%); }
   }
+
+}
+
+@layer utilities {
+  .max-w-mobile-content { max-width: 343px; }
+  .max-w-mobile { max-width: 375px; }
+
+  .text-mobile-h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  
+  .text-mobile-h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+  }
+  
+  .text-mobile-h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  
+  .text-mobile-h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  
+  .text-mobile-text-small {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  
+  .text-mobile-text-medium {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  
+  .text-mobile-text-inter {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .text-mobile-text-category {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .text-mobile-text-description {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .text-mobile-text-cost-medium {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    font-family: var(--font-jetbrains);
+  }
+  
+  .text-mobile-text-cost-small {
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 800;
+    font-family: var(--font-jetbrains);
+  }
+  
 }
 
 @source "./app/**/*.{js,ts,jsx,tsx}";
@@ -32,70 +106,6 @@
 @source "./shared/**/*.{js,ts,jsx,tsx}";
 @source "./widgets/**/*.{js,ts,jsx,tsx}"; 
 
-
-.text-mobile-h1 {
-  font-size: 32px;
-  line-height: 40px;
-}
-
-.text-mobile-h2 {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 500;
-}
-
-.text-mobile-h3 {
-  font-size: 28px;
-  line-height: 40px;
-}
-
-.text-mobile-h4 {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.text-mobile-text-small {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 500;
-}
-
-.text-mobile-text-medium {
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 500;
-}
-
-.text-mobile-text-inter {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.text-mobile-text-category {
-  font-family: var(--font-inter);
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.text-mobile-text-description {
-  font-size: 12px;
-  line-height: 16px;
-}
-
-.text-mobile-text-cost-medium {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 800;
-  font-family: var(--font-jetbrains);
-}
-
-.text-mobile-text-cost-small {
-  font-size: 14px;
-  line-height: normal;
-  font-weight: 800;
-  font-family: var(--font-jetbrains);
-}
 
 body {
   background: #171717;
