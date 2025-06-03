@@ -1,5 +1,5 @@
 import { MouseEventHandler } from "react";
-import { CrossIcon } from "../assets/icons/CrossIcon"
+import { CrossIcon } from "@/shared/assets/icons/CrossIcon"
 
 export const CloseButton = ( {className, onClick}: {className: string; onClick: MouseEventHandler<HTMLButtonElement>} ) => {
   return (

@@ -1,4 +1,5 @@
 import { BaseCategories } from "@/shared/components/BaseCategories"
+import SneakersImg from '@/features/mainPage/assets/shoesSection/image_category-0.png'
 import BootsImg from '@/features/mainPage/assets/shoesSection/image_category.png'
 import CustomSneakersImg from '@/features/mainPage/assets/shoesSection/image_category-1.png'
 import SportShoesImg from '@/features/mainPage/assets/shoesSection/image_category-2.png'
@@ -10,7 +11,7 @@ export const ShoesCategories = () => {
         {
             href: "/category/krossi-kedi",
             title: "Кроссовки\nи кеды", 
-            imageSrc: BootsImg.src, 
+            imageSrc: SneakersImg.src, 
             colSpan: 3, 
         },
         {

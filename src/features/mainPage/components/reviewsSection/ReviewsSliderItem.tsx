@@ -3,12 +3,13 @@ import StarIcon from "@/features/mainPage/assets/reviewsSection/reviews-star.svg
 import CardImageSmall from "@/features/mainPage/assets/reviewsSection/reviews-card-image-small.png"
 import { ArrowIcon } from "@/shared/assets/icons/ArrowIcon";
 import Image from "next/image";
+import Link from "next/link";
 
 export const ReviewsSliderItem = () => {
   return (
-    <li className="relative flex flex-col items-stretch rounded-2xl p-2 bg-black-600 bg-cover bg-center w-full max-w-[200px]"
+    <Link href={'/'} className="relative flex flex-col items-stretch rounded-2xl p-2 bg-black-600 bg-cover bg-center w-full max-w-[200px]"
         style={{ backgroundImage: `url('${CardImage.src}')` }}>
-        <div className="inline-flex gap-1 items-center text-mobile-text-cost-small self-end mb-44">
+        <div className="inline-flex gap-1 items-center text-mobile-text-cost-small text-white-500 self-end mb-44">
             <Image src={StarIcon} alt=""/>
             <p>5</p>
         </div>
@@ -20,6 +21,6 @@ export const ReviewsSliderItem = () => {
         </p>
         <ArrowIcon className={`text-white-500`}/>
         </div>
-    </li>
+    </Link>
   )
 }

@@ -1,7 +1,7 @@
 import { Footer } from '@/widgets/Footer'
 import { Header } from '@/widgets/Header'
 import { MainHero } from './components/MainHero'
-import { Toggler } from './components/Toggler'
+import { MainPageToggler } from '../../shared/ui/toggler/MainPageToggler'
 import { ShoesSection } from './components/shoesSection/ShoesSection'
 import { RecomendedSection } from '@/shared/components/recomendedSection/RecomendedSection'
 import { ClothesSection } from './components/clothesSection/ClothesSection'
@@ -18,7 +18,7 @@ export const MainPage = () => {
 
         <main className='mt-24 flex flex-col'>
           <MainHero/>
-          <Toggler/>
+          <MainPageToggler/>
           <ShoesSection/>
           <RecomendedSection/>
           <ClothesSection/>
