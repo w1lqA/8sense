@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Tab = (
     {className, title, icon, description, isActive, onClick}: 
-    {className?: string; title: string; icon: StaticImageData; description?: string; isActive: boolean; onClick: () => void}
+    {className?: string; title: string; icon: StaticImageData; description?: string; isActive?: boolean; onClick: () => void}
 ) => {
   return (
     <button onClick={onClick} className={`flex flex-row backdrop-blur-[10px] items-center transition-colors gap-3 p-2 pr-5 rounded-full ${

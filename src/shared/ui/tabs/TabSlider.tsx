@@ -25,19 +25,16 @@ export const TabSlider = ({ variant }: { variant: TabVariant }) => {
         title: 'Популярные',
         description: '',
         icon: TabIcon,
-        isActive: true
       },
       {
         title: 'Только что купили',
         description: '',
         icon: TabIcon,
-        isActive: true
       },
       {
         title: 'Только что купили',
         description: '',
         icon: TabIcon,
-        isActive: true
       }
     ],
     collections: [
