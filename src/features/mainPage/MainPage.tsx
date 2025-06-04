@@ -1,5 +1,3 @@
-import { Footer } from '@/widgets/Footer'
-import { Header } from '@/widgets/Header'
 import { MainHero } from './components/MainHero'
 import { MainPageToggler } from '../../shared/ui/toggler/MainPageToggler'
 import { ShoesSection } from './components/shoesSection/ShoesSection'
@@ -14,8 +12,6 @@ export const MainPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-start min-h-screen mx-auto max-w-[375px] bg-background relative">
-        <Header/>
-
         <main className='mt-24 flex flex-col'>
           <MainHero/>
           <MainPageToggler/>
@@ -26,12 +22,9 @@ export const MainPage = () => {
           <AccessoriesSection/>
           <RecomendedSection/>
           <CollectionsSection/>
-
           <LoginOffer/>
           <ReviewsSection/>
         </main>
-
-        <Footer/>
     </div>
   )
 }

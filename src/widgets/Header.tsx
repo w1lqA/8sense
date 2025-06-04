@@ -36,7 +36,7 @@ export const Header = ({className}: HeaderProps) => {
                 </Link>
             </div>
            <div className="absolute left-1/2 transform -translate-x-1/2">
-                <Link href='#' className="hover:opacity-90 transition">
+                <Link href='/' className="hover:opacity-90 transition">
                     <LogoIcon className="text-black-600 h-4"/>
                 </Link>
             </div>
