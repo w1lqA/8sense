@@ -1,11 +1,11 @@
 import { Header } from "@/widgets/Header";
-import { MenuComponent } from "@/widgets/menu/MenuComponent"
+import { MenuPage } from "@/features/menuPage/MenuPage"
 
 export default function Menu () {
   return (
-    <div className="min-h-screen mx-auto max-w-[375px] bg-background ">
+    <div className="min-h-screen mx-auto max-w-mobile bg-background ">
       <Header/>
-      <MenuComponent/>
+      <MenuPage/>
     </div>
   );
 }

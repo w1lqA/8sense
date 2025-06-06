@@ -4,8 +4,8 @@ import { Header } from "@/widgets/Header";
 
 export default function Home() {
   return (
-    <div className="min-h-screen mx-auto max-w-[375px] bg-background">
-      <Header/>
+    <div className="min-h-screen mx-auto max-w-mobile bg-background">
+      <Header classNameNav={'bg-black-200'}/>
       
       <MainPage/>
 

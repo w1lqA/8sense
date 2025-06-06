@@ -1,6 +1,7 @@
-import HeartSolidIcon from '@/shared/assets/icons/icon-heart-solid.svg'
-import HeartOutlineIcon from '@/shared/assets/icons/icon-heart-outline.svg'
 
+
+import { HeartOutlineIcon } from '@/shared/assets/icons/HeartOutlineIcon'
+import { HeartSolidIcon } from '@/shared/assets/icons/HeartSolidIcon'
 import SneakersImg from '@/shared/assets/images/sneakers.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,7 +9,11 @@ import Link from 'next/link'
 export const RecomendedItem = ({isLiked = false}: {isLiked?: boolean}) => {
   return (
     <Link href={'/'} className='flex flex-col gap-2 max-w-44 relative'>
-        <Image src={isLiked ? HeartSolidIcon : HeartOutlineIcon } alt='Like' className='absolute left-0 top-0'/>
+        {isLiked 
+        ? <HeartSolidIcon className='absolute left-0 top-0'/>
+        : <HeartOutlineIcon className='absolute left-0 top-0'/>
+        }
+        
         <Image src={SneakersImg} alt='Кроссовки' className='w-full'/>
         <div className='flex flex-col gap-1'>
             <p className='inline-flex items-end'>

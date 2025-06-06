@@ -65,17 +65,16 @@
   .text-mobile-text-medium {
     font-size: 14px;
     line-height: 16px;
-    font-weight: 500;
   }
   
   .text-mobile-text-inter {
     font-size: 16px;
     line-height: 20px;
+    font-family: var(--font-inter);
   }
   
   .text-mobile-text-category {
     font-family: var(--font-inter);
-    font-weight: 600;
     font-size: 14px;
     line-height: 16px;
   }

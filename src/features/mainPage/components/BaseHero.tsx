@@ -1,5 +1,5 @@
 "use client"; 
-import { SearchInput } from "@/shared/ui/SearchInput"
+import { SearchInput } from "@/features/mainPage/components/SearchInput"
 import { TabSlider } from "@/shared/ui/tabs/TabSlider"
 import Link from "next/link"
 

@@ -11,7 +11,7 @@ import { LoginOffer } from './components/LoginOffer'
 export const MainPage = () => {
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen mx-auto max-w-[375px] bg-background relative">
+    <div className="flex flex-col items-center justify-start min-h-screen mx-auto max-w-mobile bg-background relative">
         <main className='mt-24 flex flex-col'>
           <MainHero/>
           <MainPageToggler/>

@@ -1,4 +1,4 @@
-import { SearchIcon } from "../assets/icons/SearchIcon"
+import { SearchIcon } from "../../../shared/assets/icons/SearchIcon"
 
 export const SearchInput = ({ className, title }: {className?: string, title: string}) => {
   return (

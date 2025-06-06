@@ -7,16 +7,12 @@ import { LogoIcon } from "@/shared/assets/icons/LogoIcon"
 import { SearchIcon } from "@/shared/assets/icons/SearchIcon"
 
 
-interface HeaderProps {
-    className?: string
-}
-
-export const Header = ({className}: HeaderProps) => {
+export const Header = ({className, classNameNav}: {className?: string, classNameNav?: string}) => {
   return (
     <header className={` ${className}
-        px-3 py-4 justify-between bg-black-200 w-full rounded-lg fixed max-w-[343px] m-4 z-50
+        justify-between w-full fixed z-50 max-w-mobile p-4
     `}>
-        <nav className="flex flex-row items-center w-full justify-between relative">
+        <nav className={`${classNameNav} px-3 py-4 flex mx-auto rounded-lg flex-row items-center w-full max-w-mobile-content  justify-between relative`}>
             <div className="flex items-center gap-1">
                 <Link 
                     href="/menu" 
